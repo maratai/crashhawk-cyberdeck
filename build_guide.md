@@ -67,7 +67,7 @@ AlleyCat:
 [ACOS Termyte Pocket Cyberdeck](https://www.printables.com/model/1347355-acos-termyte-pocket-cyberdeck-read-the-description)
 although I ended up using different components!
 
-the computery bit
+## the computery bit
 
 [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
@@ -80,7 +80,7 @@ has documentation and specs.
 Mine came with a microSD card from my husband's coworker, which
 will set you back around $10 to $15 USD depending on specifics.
 
-the display bit
+## the display bit
 
 [Hosyond 5 Inch Touchscreen IPS MIPI DSI Displa](https://www.amazon.com/dp/B0CXTFN8K9)
 
@@ -94,8 +94,9 @@ This was the easiest semi-affordable display I could get running
 without trouble, after a prior failure to figure out a deprecated
 dependency in the driver for a different, smaller, cheaper  display.
 The touchscreen is nice as an ad-hoc mouse substitute. About $35 USD.
+Also, use the *longer* included FPC flexible cable to the rpi4.
 
-the portable rechargeable battery bit
+## the portable rechargeable battery bit
 
 [PiSugar S Plus](https://www.pisugar.com/products/pisugar-s-plus-raspberry-pi-ups)
 
@@ -107,12 +108,12 @@ included FPC flexible cables to connect the Hosyond display to the rpi
 if you're *also* connecting the PiSugar battery
 to the rpi proper. $30 USD.
 
-the regular power supply with USB-C cable
+## the regular power supply with USB-C cable
 I don't think you need a special one, but check the rpi 4B's power etc
 requirements. The rpi 4B receives direct power over USB-C. I inherited
 this too from my husband's coworker. About $5 to $10 USD.
 
-the smol keyboard bit
+## the smol keyboard bit
 
 [Serounder 2.4GHz Touchpad Keyboard,A8 Mini Rechargeable Keyboard](https://www.amazon.com/dp/B07S7BQMRY)
 
@@ -121,6 +122,8 @@ About $20 USD. The rpi 4B is also happy to talk to a fuller size
 I *think* this touchpad keyboard is intended for GAMING console use.
 I normally can't stand ortholinear keyboard layouts, but for something
 used with  hunt-and-peck thumb or forefinger typing, it works great!
+
+## other keyboards
 
 For a full-sized-ish 2.4GHz travel folding keyboard + mouse + case:
 
@@ -142,10 +145,14 @@ For a non-folding very slim/lightweight USB-A wired keyboard, I like
 about $35 USD. The touchpad works fine for a lightweight mouse
 substitute. But I'm sure you have your own favorites!
 
+# Cost
+
 Without battery or case, this is a build costing a bit north of $100 USD
 not including shipping and/or tax; with battery, closer to $150 USD.
 If you skip the smol keyboard and already have some USB-A or Bluetooth
 keyboard lying around etc, you may need to spend less.
+
+# WIP - thoughts toward a case design and build
 
 I'm making the case with random Davey Board, bookbindin, leatherworking
 I have lying around. There are probably better 3D printed case
