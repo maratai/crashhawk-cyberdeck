@@ -68,8 +68,10 @@ AlleyCat:
 although I ended up using different components!
 
 the computery bit
-[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/))
-sMine is the 8 GB RAM version, which is overkill for my use case,
+
+[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+
+Mine is the 8 GB RAM version, which is overkill for my use case,
 but this is what I inberited in handspun yarn barter from my
 husband's coworker. $80 USD if I'd bought this specific model;
 the base version (less RAM) is more like $40 USD. The linked site also
@@ -79,9 +81,13 @@ Mine came with a microSD card from my husband's coworker, which
 will set you back around $10 to $15 USD depending on specifics.
 
 the display bit
+
 [Hosyond 5 Inch Touchscreen IPS MIPI DSI Displa](https://www.amazon.com/dp/B0CXTFN8K9)
+
 Compatible with Raspberry Pi 5/4/3, 800x480 Pixel, no driver needed
-(Hosyond's documentation](https://hosyond.com/)
+
+[Hosyond's documentation](https://hosyond.com/)
+
 You want the "5 inch DSI Display" link, which will get you a
 downloadable PDF with instructions for wiring and setup.
 This was the easiest semi-affordable display I could get running
@@ -90,8 +96,11 @@ dependency in the driver for a different, smaller, cheaper  display.
 The touchscreen is nice as an ad-hoc mouse substitute. About $35 USD.
 
 the portable rechargeable battery bit
+
 [PiSugar S Plus](https://www.pisugar.com/products/pisugar-s-plus-raspberry-pi-ups)
+
 I also have a PiSugar3 UPS, which I suspect would work too.
+
 [PiSugar documentation](https://docs.pisugar.com/docs/product-wiki/battery/ups-intro)
 as of this writing. You'll probably want to use the *longer* of the
 included FPC flexible cables if you're connecting the PiSugar battery
@@ -103,7 +112,9 @@ requirements. The rpi 4B receives direct power over USB-C. I inherited
 this too from my husband's coworker. About $5 to $10 USD.
 
 the smol keyboard bit
+
 [Serounder 2.4GHz Touchpad Keyboard,A8 Mini Rechargeable Keyboard](https://www.amazon.com/dp/B07S7BQMRY)
+
 About $20 USD. The rpi 4B is also happy to talk to a fuller size
 2.4GHz wireless keyboard or, over USB-A, to a regular wired keyboard.
 I *think* this touchpad keyboard is intended for GAMING console use.
@@ -111,7 +122,9 @@ I normally can't stand ortholinear keyboard layouts, but for something
 used with  hunt-and-peck thumb or forefinger typing, it works great!
 
 For a full-sized-ish 2.4GHz travel folding keyboard + mouse + case:
+
 [ProtoArc Foldable Keyboard and Mouse, XKM01](https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/v)
+
 about $80 to $90 USD so somewhat spendy. It is, however, a beautifully 
 designed case that includes a phone/small tablet folding stand. The
 USB-A dongle connects both mouse and keyboard over 2.4GHz wireless,
@@ -122,7 +135,9 @@ Key action is crisp although, as expected with a lighter folding
 keyboard, extremely shallow.
 
 For a non-folding very slim/lightweight USB-A wired keyboard, I like
+
 [Vilros 15 Inch USB Keyboard with Touchpad](https://www.amazon.com/Vilros-Inch-Keyboard-Touchpad-Great-Raspberry/dp/B08PW3LR3W/)
+
 about $35 USD. The touchpad works fine for a lightweight mouse
 substitute. But I'm sure you have your own favorites!
 
@@ -149,17 +164,23 @@ working driver situation so that may or may not happen.
 These aren't recommendations as such and I haven't written any of this
 software. But these are all free/open source for easy downloading.
 
-- [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
+[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
+
 flashed to microSD card
-- [Dusk OS](https://duskos.org/)
+
+[Dusk OS](https://duskos.org/)
+
 My main goal is to mess with coding in Forth. I'm running this on top
 of Raspberry Pi OS.
-- [micro](https://micro-editor.github.io/) text editor for writing
-- git for backup and version control
+
+[micro](https://micro-editor.github.io/)
+text editor for writing
+
+git for backup and version control
 
 # Getting Files off the Device
 Fortunately, the rpi 4B supports
 - Wi-fi, so I can physically print to either of my networked printers
 at home for hardcopy, or otherwise use the internet. I'm currently
 using git for one project.
-- USB-A ports, so I can copy files over to a thumb drive
+- USB-A ports, so I can copy files over to a thumb drive.
