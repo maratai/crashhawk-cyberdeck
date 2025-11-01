@@ -81,7 +81,7 @@ will set you back around $10 to $15 USD depending on specifics.
 the display bit
 [Hosyond 5 Inch Touchscreen IPS MIPI DSI Displa](https://www.amazon.com/dp/B0CXTFN8K9)
 Compatible with Raspberry Pi 5/4/3, 800x480 Pixel, no driver needed
-(Hosyond's documentation)[https://hosyond.com/]
+(Hosyond's documentation](https://hosyond.com/)
 You want the "5 inch DSI Display" link, which will get you a
 downloadable PDF with instructions for wiring and setup.
 This was the easiest semi-affordable display I could get running
