@@ -1,11 +1,16 @@
-Crashhawk Cyberdeck
+CRASHHAWK CYBERDECK
+
 Last update: 2025-11-01
+
 Yoon Ha Lee (yoon@yoonhalee.com)
 
 WIP build guide for a Raspberry Pi 4B-based cyberdeck/writerdeck with
-bonus (?) Machineries of Empire in-joke.
+bonus (?) Machineries of Empire in-joke. Notes for my own reference.
+I don't offer support, sorry!
 
 ![cyberdeck build WIP](https://github.com/maratai/crashhawk-cyberdeck/blob/main/2025-11-01-rpi-02.jpg)
+
+For my reference: [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
 # Introduction
 My goal with this writerdeck/cyberdeck was to create something with the
