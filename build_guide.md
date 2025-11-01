@@ -5,7 +5,7 @@ Yoon Ha Lee (yoon@yoonhalee.com)
 WIP build guide for a Raspberry Pi 4B-based cyberdeck/writerdeck with
 bonus (?) Machineries of Empire in-joke.
 
-![cyberdeck build WIP](2025-c11-01-rpi-02.jpg)
+![cyberdeck build WIP](https://github.com/maratai/crashhawk-cyberdeck/blob/main/2025-11-01-rpi-02.jpg)
 
 # Introduction
 My goal with this writerdeck/cyberdeck was to create something with the
