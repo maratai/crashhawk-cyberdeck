@@ -103,8 +103,9 @@ I also have a PiSugar3 UPS, which I suspect would work too.
 
 [PiSugar documentation](https://docs.pisugar.com/docs/product-wiki/battery/ups-intro)
 as of this writing. You'll probably want to use the *longer* of the
-included FPC flexible cables if you're connecting the PiSugar battery
-to the Raspberry Pi proper. $30 USD.
+included FPC flexible cables to connect the Hosyond display to the rpi
+if you're *also* connecting the PiSugar battery
+to the rpi proper. $30 USD.
 
 the regular power supply with USB-C cable
 I don't think you need a special one, but check the rpi 4B's power etc
@@ -152,7 +153,7 @@ solutions but bookbinding/cardboard box-making techniques are
 something I can readily prototype at home without having to learn how
 to STL. I'm a hobbyist, not a professional; by "leatherworking" I mean
 "it's functional but made from a discounted C-grade double shoulder for
-learning/hobby purposes.""
+learning/hobby purposes."
 
 I would like to work out a version that runs off the Raspberry Pi
 Pico 2W (under $10 USD) *and* a smaller and less spendy display.
