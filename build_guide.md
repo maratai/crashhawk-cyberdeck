@@ -63,7 +63,7 @@ keyboard lying around etc, you may need to spend less.
 
 # Weight
 Total weight/mass of everything (display + computer + keyboard + battery +
-associated connectors etc): about 13 oz (360 g).
+associated connectors etc) **without case**: about 13 oz (360 g).
 
 # Build List
 Nota bene: some of these are Amazon links but I'm sure you can source
