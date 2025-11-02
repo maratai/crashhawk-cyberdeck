@@ -78,7 +78,8 @@ Weight's a concern for me due to my wrecked hands (medical).
 
 # Build List
 **Nota bene:** some of these are Amazon links but I'm sure you can source
-equivalents elsewhere.
+equivalents elsewhere. I'm based in the USA; all prices given in USD
+unless otherwise indicated.
 
 I wish to acknowledge the following inspirational and terrific cyberdeck
 build by AlleyCat:
@@ -90,59 +91,65 @@ although I ended up using different components!
 
 Mine is the 8 GB RAM version, which is overkill for my use case,
 but this is what I inberited in handspun yarn barter from my
-husband's coworker. $80 USD if I'd bought this specific model;
-the base version (less RAM) is more like $40 USD. The linked site also
-has documentation and specs.
+husband's coworker. **$80 USD** if I'd bought this specific model;
+the base version (less RAM) is more like **$40 USD**. The linked site
+also has documentation and specs.
 
 Mine came with a microSD card from my husband's coworker, which
-will set you back around $10 to $15 USD depending on specifics.
+will set you back around **$10 to $15 USD** depending on specifics.
+
+![art yarn barter](https://raw.githubusercontent.com/maratai/crashhawk-cyberdeck/refs/heads/main/2025-09-19-yarn.jpg)
 
 ## the display bit
 [Hosyond 5 Inch Touchscreen IPS MIPI DSI Displa](https://www.amazon.com/dp/B0CXTFN8K9)
 
-Compatible with Raspberry Pi 5/4/3, 800x480 Pixel, no driver needed.
+Compatible with Raspberry Pi 5/4/3, 800x480 pixels, no driver needed.
 
 [Hosyond's documentation](https://hosyond.com/)
 
-You want the "5 inch DSI Display" link, which will get you a
-downloadable PDF with instructions for wiring and setup.
+You want the **"5 inch DSI Display" link** (scroll down),
+which will get you a downloadable PDF with instructions for wiring and
+setup.
+
 This was the easiest semi-affordable display I could get running
 without trouble, after a prior failure to figure out a deprecated
 dependency in the driver for a different, smaller, cheaper display.
-The touchscreen is nice as an ad-hoc mouse substitute. About $35 USD.
-Also, use the *longer* included FPC flexible cable to the rpi.
+The touchscreen is nice as an ad-hoc mouse substitute. About **$35 USD**.
+
+Use the *longer* included FPC flexible cable to the rpi if
+you're using a PiSugar battery (so you can accommodate it too).
 
 ## the portable rechargeable battery bit
 [PiSugar S Plus](https://www.pisugar.com/products/pisugar-s-plus-raspberry-pi-ups)
 
-I also have a PiSugar3 UPS, which I suspect would work too.
-
 [PiSugar documentation](https://docs.pisugar.com/docs/product-wiki/battery/ups-intro)
-as of this writing. You'll probably want to use the *longer* of the
+
+Use the *longer* of the
 included FPC flexible cables to connect the Hosyond display to the rpi
 if you're *also* connecting the PiSugar battery
-to the rpi proper. $30 USD.
+to the rpi proper. **$30 USD**.
 
 ## the regular power supply with USB-C cable bit
 I don't think you need a special one, but check the rpi 4B's power etc
 requirements. The rpi 4B receives direct power over USB-C. I inherited
-this from my husband's coworker. About $5 to $10 USD.
+this from my husband's coworker. About **$5 to $10 USD**.
 
 ## the smol keyboard bit
 [Serounder 2.4GHz Touchpad Keyboard,A8 Mini Rechargeable Keyboard](https://www.amazon.com/dp/B07S7BQMRY)
 
-About $20 USD. The rpi 4B is happy to talk to a fuller size
+About **$20 USD**. The rpi 4B is happy to talk to a fuller size
 2.4GHz wireless keyboard or, over USB-A, to a regular wired keyboard.
 I *think* this touchpad keyboard is intended for GAMING console use.
-I normally can't stand ortholinear keyboard layouts, but for something
-used with  hunt-and-peck thumb or forefinger typing, it works great!
+I normally can't stand ortholinear keyboard layouts, but for
+hunt-and-peck thumb or forefinger typing, it works great!
 
 ## other keyboard bits
-For a full-sized-ish 2.4GHz travel folding keyboard + mouse + case:
+For a full-sized-ish 2.4GHz travel folding keyboard + mouse + case
+(optional, but I like having the option):
 
 [ProtoArc Foldable Keyboard and Mouse, XKM01](https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/v)
 
-About $80 to $90 USD so somewhat spendy. It is, however, a beautifully 
+About **$80 to $90 USD&& so somewhat spendy. It is, however, a beautifully 
 designed case that includes a phone/small tablet folding stand. The
 USB-A dongle connects both mouse and keyboard over 2.4GHz wireless,
 but you also have the option of Bluetooth. I don't know how to connect
@@ -151,52 +158,71 @@ the USB-A dongle for 2.4GHz wireless. Recharges over USB-C.
 Key action is crisp although, as expected with a lighter folding
 keyboard, extremely shallow.
 
-For a non-folding very slim/lightweight USB-A wired keyboard, I like
+For a non-folding very slim/lightweight USB-A wired keyboard
+(optional), I like
 
 [Vilros 15 Inch USB Keyboard with Touchpad](https://www.amazon.com/Vilros-Inch-Keyboard-Touchpad-Great-Raspberry/dp/B08PW3LR3W/)
 
-about $35 USD. The touchpad works fine for a lightweight mouse
+About **$35 USD**. The touchpad works fine as a lightweight mouse
 substitute. But I'm sure you have your own favorites!
 
 # WIP - thoughts toward a case design and build
 
 ![scribbled preliminary design thoughts for a case](https://raw.githubusercontent.com/maratai/crashhawk-cyberdeck/refs/heads/main/IMG_0219.jpeg)
 
+**To-do:** Prototype case form factor (etc) in cheap cardboard.
+
 I'm making the case with random Davey Board, bookbinding, leatherworking
 I have lying around. There are probably better 3D printed case
 solutions but bookbinding/cardboard box-making techniques are
-something I can readily prototype at home without having to learn how
-to STL. I'm a hobbyist, not a professional; by "leatherworking" I mean
-"it's functional but made from a discounted C-grade double shoulder for
-learning/hobby purposes."
+something I can prototype at home without having to learn how
+to STL (yet).
 
-I would like to work out a version that runs off the Raspberry Pi
-Pico 2W (under $10 USD) *and* a smaller and less spendy display.
-Ideally, this would result in a less expensive, lighter weight  build.
+I'm a hobbyist, not a professional; by "leatherworking" I mean
+"it's functional but made from a discounted C-grade double shoulder for
+learning/hobby purposes." The real bottleneck to learning leatherworking
+is, unfortunately, the cost of *leather*; some of the tools are not
+cheap either, depending on what you're doing. I discovered the hard
+way that it's cheaper per unit of "area" to grimly save up for a sale
+on lower-grade double shoulders or similar larger cuts (to practice on,
+since I am not daft enough to ruin fancy leather on a learning project)
+rather than buying the smaller cuts, especially since I enjoy hobbyist
+leatherworking on and off. (I'm told the "better" way to get started,
+if possible, is make some friends who will give you their off-cuts to
+get started! Goodness knows I've only been doing this a couple years
+and I already have a small stash of off-cuts.)
+
+I would like to work out a version that runs off the **Raspberry Pi
+Pico 2W** (under **$10 USD**) *and* a **smaller, cheaper display**.
+Ideally, this would result in a less expensive, lighter weight build.
 Unfortunately, I'm desperately confused by the display + connector +
-working driver situation so that may or may not happen.
+working driver situation (I lack the expertise to code or debug display
+drivers myself at this point in time) so that may or may not happen.
 
 # Software
 These aren't recommendations as such and I haven't written any of this
-software. But these are all free/open source for easy downloading.
+software. But these are all **free/open source** for easy downloading.
 
 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
 
-flashed to microSD card
+Flashed to microSD card.
 
 [Dusk OS](https://duskos.org/)
 
-My main goal is to mess with coding in Forth. I'm running this on top
-of Raspberry Pi OS.
+My goal is to mess with coding in Forth. I'm running this on top
+of Raspberry Pi OS. I'd like to try a baremetal Dusk OS build someday,
+but I need to suss out the display situation as I definitely don't know
+how to write display drivers this (alas).
 
 [micro](https://micro-editor.github.io/)
-text editor for writing
+Text editor for writing. Really excellent.
 
-git for backup and version control
+Git for backup and version control.
 
 # Getting Files off the Device
 Fortunately, the rpi 4B supports
-- Wi-fi, so I can physically print to either of my networked printers
+
+- **Wi-fi**, so I can physically print to either of my networked printers
 at home for hardcopy, or otherwise use the internet. I'm currently
-using git for one project.
-- USB-A ports, so I can copy files over to a thumb drive.
+using **git** for offsite backup of one project.
+- **USB-A ports**, so I can copy files over to a thumb drive. Two are occupied by USB-A dongles (2.4GHz wireless), but there are still two left!
