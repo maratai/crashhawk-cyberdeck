@@ -1,6 +1,6 @@
 CRASHHAWK CYBERDECK
 
-Last update: 2025-11-01
+Last update: 2025-11-02
 
 Yoon Ha Lee (yoon@yoonhalee.com)
 
