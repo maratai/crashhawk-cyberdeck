@@ -21,6 +21,7 @@ shelf "type into your smartphone" solutions work poorly for me.
 
 Also, I wanted to build a thing, so there's that. :3
 
+-
 - Handheld form factor
 - With a display I can actually read
 - With a small physical keyboard for thumb- or forefinger-typing
@@ -40,38 +41,48 @@ computer on days when I can sit up without too much trouble.
 - That doesn't require soldering. I've never soldered; I'd like to
 learn, but until then...
 
-I'm up to a working proof of concept with all the components and now
-able to consider case design and construction. I'm *not* doing 3D
+I'm up to a working proof of concept with all the components wired together
+I'm now considering case design and construction. I'm *not* doing 3D
 printing since I don't own a 3D printer and don't know how to create the
-appropriate STL files etc (yet). I'll be using Davey board or leather
-and bookbinding, box-making, leatherworking techniques since I have
-supplies and tools on hand and for me that's now a sunk cost.
+appropriate STL files etc (yet). Likewise, I regret that I'm not a
+carpenter or woodworker.
 
-There's no case (yet) but all the components are talking to each other.
+I'll be using **Davey board or leather**;
+bookbinding, allied cardboard box-making, leatherworking techniques
+since I have supplies and tools on hand and for me that's a sunk cost (for me).
 
-Nota bene: Regrettably, I can't provide build support. I'm a hobbyist
-with a B.A. in math, limited "lite" coding experience (BASIC, Turbo
-Pascal,  Java, LISP/Scheme/Dylan, Inform 6 and Inform 7, Python, Lua).
-I'm currently *learning* C, C++, and Forth, but I'm not a dev, sorry!
+There's no case design (yet) as that's the current step,
+but all the components are talking to each other.
+
+**Nota bene**: Regrettably, I can't provide build support.
 I have no prior experience in computer hardware.
+I'm a hobbyist with a B.A. in math, limited "lite" coding experience
+(BASIC, Turbo Pascal,  Java, LISP/Scheme/Dylan, Inform 6 and Inform 7,
+Python, Lua, enough command line to get by).
+I'm currently *learning* C, C++, and Forth, but I'm not a dev, sorry!
 
 # Cost
 Without battery or case, this is a build costing a bit north of $100 USD
-not including shipping and/or tax; with battery, closer to $150 USD.
+not including shipping and/or tax as of this writing;
+with battery, closer to $150 USD.
+
 If you skip the smol keyboard and already have some USB-A or Bluetooth
-keyboard lying around etc, you may be able to spend less.
+keyboard or other components lying around etc, you may be able to spend 
+less.
 
 # Weight
 Total weight/mass of everything (display + computer + keyboard + battery +
 associated connectors etc) **without case**: about 13 oz (360 g).
 
+Weight's a concern for me due to my wrecked hands (medical).
+
 # Build List
-Nota bene: some of these are Amazon links but I'm sure you can source
+**Nota bene:** some of these are Amazon links but I'm sure you can source
 equivalents elsewhere.
 
-I wish to acknowledge the following inspirational cyberdeck build by
-AlleyCat:
-[ACOS Termyte Pocket Cyberdeck](https://www.printables.com/model/1347355-acos-termyte-pocket-cyberdeck-read-the-description)
+I wish to acknowledge the following inspirational and terrific cyberdeck
+build by AlleyCat:
+[ACOS Termyte Pocket Cyberdeck](https://www.printables.com/model/1347355-acos-termyte-pocket-cyberdeck-read-the-description),
 although I ended up using different components!
 
 ## the computery bit
