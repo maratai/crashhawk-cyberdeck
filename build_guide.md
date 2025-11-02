@@ -15,7 +15,7 @@ For my reference: [Markdown cheat sheet](https://www.markdownguide.org/cheat-she
 # Introduction
 My goal with this writerdeck/cyberdeck was to create something with the
 following desiderata because I have ongoing health problems; on a bad
-day, sitting upright is difficult and I'm largely confined to lying down
+day, sitting upright is difficult and I'm confined to lying down
 in bed. I also have wrecked hands (neuropathy) so some of the off-the-
 shelf "type into your smartphone" solutions work poorly for me.
 
@@ -36,7 +36,7 @@ terrific older devices that they are. At the point where getting a
 a novelist by profession. It pays the bills!)
 - That works with some kind of stand for use as a small "regular"
 computer on days when I can sit up without too much trouble.
-- That supports a barebones text editor. I'm happy to work in nano!
+- That supports a barebones text editor. I'm happy to work in nano! (I'm using micro.)
 - That doesn't require soldering. I've never soldered; I'd like to
 learn, but until then...
 
@@ -59,7 +59,7 @@ I have no prior experience in computer hardware.
 Without battery or case, this is a build costing a bit north of $100 USD
 not including shipping and/or tax; with battery, closer to $150 USD.
 If you skip the smol keyboard and already have some USB-A or Bluetooth
-keyboard lying around etc, you may need to spend less.
+keyboard lying around etc, you may be able to spend less.
 
 # Weight
 Total weight/mass of everything (display + computer + keyboard + battery +
@@ -89,7 +89,7 @@ will set you back around $10 to $15 USD depending on specifics.
 ## the display bit
 [Hosyond 5 Inch Touchscreen IPS MIPI DSI Displa](https://www.amazon.com/dp/B0CXTFN8K9)
 
-Compatible with Raspberry Pi 5/4/3, 800x480 Pixel, no driver needed
+Compatible with Raspberry Pi 5/4/3, 800x480 Pixel, no driver needed.
 
 [Hosyond's documentation](https://hosyond.com/)
 
@@ -97,9 +97,9 @@ You want the "5 inch DSI Display" link, which will get you a
 downloadable PDF with instructions for wiring and setup.
 This was the easiest semi-affordable display I could get running
 without trouble, after a prior failure to figure out a deprecated
-dependency in the driver for a different, smaller, cheaper  display.
+dependency in the driver for a different, smaller, cheaper display.
 The touchscreen is nice as an ad-hoc mouse substitute. About $35 USD.
-Also, use the *longer* included FPC flexible cable to the rpi4.
+Also, use the *longer* included FPC flexible cable to the rpi.
 
 ## the portable rechargeable battery bit
 [PiSugar S Plus](https://www.pisugar.com/products/pisugar-s-plus-raspberry-pi-ups)
@@ -115,12 +115,12 @@ to the rpi proper. $30 USD.
 ## the regular power supply with USB-C cable bit
 I don't think you need a special one, but check the rpi 4B's power etc
 requirements. The rpi 4B receives direct power over USB-C. I inherited
-this too from my husband's coworker. About $5 to $10 USD.
+this from my husband's coworker. About $5 to $10 USD.
 
 ## the smol keyboard bit
 [Serounder 2.4GHz Touchpad Keyboard,A8 Mini Rechargeable Keyboard](https://www.amazon.com/dp/B07S7BQMRY)
 
-About $20 USD. The rpi 4B is also happy to talk to a fuller size
+About $20 USD. The rpi 4B is happy to talk to a fuller size
 2.4GHz wireless keyboard or, over USB-A, to a regular wired keyboard.
 I *think* this touchpad keyboard is intended for GAMING console use.
 I normally can't stand ortholinear keyboard layouts, but for something
@@ -131,7 +131,7 @@ For a full-sized-ish 2.4GHz travel folding keyboard + mouse + case:
 
 [ProtoArc Foldable Keyboard and Mouse, XKM01](https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/https://www.amazon.com/Foldable-ProtoArc-Bluetooth-Rechargeable-Full-Size/dp/B0BTNMVJ43/v)
 
-about $80 to $90 USD so somewhat spendy. It is, however, a beautifully 
+About $80 to $90 USD so somewhat spendy. It is, however, a beautifully 
 designed case that includes a phone/small tablet folding stand. The
 USB-A dongle connects both mouse and keyboard over 2.4GHz wireless,
 but you also have the option of Bluetooth. I don't know how to connect
@@ -148,7 +148,10 @@ about $35 USD. The touchpad works fine for a lightweight mouse
 substitute. But I'm sure you have your own favorites!
 
 # WIP - thoughts toward a case design and build
-I'm making the case with random Davey Board, bookbindin, leatherworking
+
+![scribbled preliminary design thoughts for a case](https://raw.githubusercontent.com/maratai/crashhawk-cyberdeck/refs/heads/main/IMG_0219.jpeg)
+
+I'm making the case with random Davey Board, bookbinding, leatherworking
 I have lying around. There are probably better 3D printed case
 solutions but bookbinding/cardboard box-making techniques are
 something I can readily prototype at home without having to learn how
